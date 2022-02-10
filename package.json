@@ -1,0 +1,37 @@
+{
+  "name": "video-spriter",
+  "version": "1.0.0",
+  "description": "Application downloads video file from Amazon S3, performs processing, and uploads image sprite back to Amazon S3.",
+  "main": "app.js",
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1024.0",
+    "command-exists": "^1.2.9",
+    "dotenv": "^10.0.0",
+    "rmfr": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.0",
+    "@types/jest": "^27.0.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-wesbos": "^2.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1"
+  }
+}

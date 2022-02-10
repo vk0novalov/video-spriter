@@ -1,0 +1,9 @@
+{
+  "AWS_ACCESS_KEY_ID" : "",
+  "AWS_SECRET_ACCESS_KEY": "",
+  "bucket": "",
+  "region": "eu-west-3",
+  "videoKey": "video.ts",
+  "previewKey": "preview.jpg",
+  "previewIntervalMs": "5000"
+}
